@@ -6,7 +6,8 @@ def square_array(numbers)
   
   while count < numbers.length do  
     binding.pry
-    numbers[0] **2
+    numbers[count] **2
+    count +=1
   puts new_array
   end
 end
